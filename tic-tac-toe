@@ -2,9 +2,8 @@
 #Tic-Tac-Toe
 
 #citations: https://medium.com/byte-tales/the-classic-tic-tac-toe-game-in-python-3-1427c68b8874
-#helped with tic-tac-toe game basics
 
-
+import random
 
 #from playsound import playsound
 #playsound('C:/Users/Jennifer Vaughn/OneDrive - Temple University/tictactoepy/mariahcarey.mp3')
@@ -12,34 +11,48 @@
 
 
 
+print("\n\n🎁🎁🎁🎁🎁 WELCOME TO X-MAS TIC-TAC-TOE 🎁🎁🎁🎁🎁\n\n\n")
 
+
+
+    
+print('Each player, mentally select your piece: ☃ or 🎄')
+print("\n")
+
+
+      
 board = {'1':' ','2':' ','3':' ','4':' ','5':' ','6':' ','7':' ','8':' ','9':' '}
 
 
-
 def displayBoard(board):
-    print(board['1'] + ' ︴' + board['2'] + ' ︴' + board['3'])
-    print('——+——+——')
-    print(board['4'] + ' ︴' + board['5'] + ' ︴' + board['6'])
-    print('——+——+——')
-    print(board['7'] + ' ︴' + board['8'] + ' ︴' + board['9'])
+    print("❅❅❅❅❅❅❅❅❅")
+    print()
+    print("❅ " + board['1'] + '  ︴' + board['2'] + ' ︴' + board['3'] + "  ❅")
+    print('   ——+—-—+——')
+    print("❅ " + board['4'] + '  ︴' + board['5'] + ' ︴' + board['6'] + "  ❅")
+    print('   ——+—-—+——')
+    print("❅ " + board['7'] + '  ︴' + board['8'] + ' ︴' + board['9'] + "  ❅")
+    print()
+    print("❅❅❅❅❅❅❅❅❅")
 
 
 
-def game():
-
-    player = '☃'
+def main():
     totalPlays = 0
-
+    
+    go = input("Enter any letter to find out which piece will go first! ")
+    if len(go) >= 1:
+        pieces = ['☃', '🎄']
+        player = random.choice(pieces)
+        print("\n\nThe first player is " + player + "!\n\n\n")
+    
 
     while True:
-    #for i in range(9):
         displayBoard(board)
         
         print("\nIt's your turn, " + player + "!")
         move = input("Choose a space, 1-9: ")
         print("\n\n")
-
         if board[move] == ' ':
             board[move] = player
             totalPlays += 1
@@ -105,7 +118,7 @@ def game():
         for key in board:
             board[key] = ' '
         print()
-        game()
+        main()
 
 
-game()
+main()
