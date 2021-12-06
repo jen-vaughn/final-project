@@ -1,0 +1,47 @@
+# Proposal
+
+## What will (likely) be the title of your project?
+
+"Frog Chess"
+
+
+## In just a sentence or two, summarize your project. (E.g., "A website that lets you buy and sell stocks.")
+
+A two-player chess game that has a special new piece, a frog, that moves by jumping over its own player's pieces.
+
+
+## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
+
+My software will be able to have two players play against each other in chess. Each player will be able to choose their every move, and it will keep track of lost pieces and decide who wins the game. It will have the unique frog piece that moves by jumping over that player's own pieces, and takes other pieces by landing on them. It can jump over pieces in any direction. If none of the player's pieces are rin a space right next to it, then the frog cannot move. I will execute this game using Pygame.
+
+
+## If planning to combine 1051's final project with another course's final project, with which other course? And which aspect(s) of your proposed project would relate to 1051, and which aspect(s) would relate to the other course?
+
+N/A
+
+
+## If planning to collaborate with 1 or 2 classmates for the final project, list their names, email addresses, and the names of their assigned TAs below.
+
+N/A
+
+
+## In the world of software, most everything takes longer to implement than you expect. And so it's not uncommon to accomplish less in a fixed amount of time than you hope.
+
+### In a sentence (or list of features), define a GOOD outcome for your final project. I.e., what WILL you accomplish no matter what?
+
+A basic chess game that works, and the project has few errors in the game and piece rules of chess.
+
+
+### In a sentence (or list of features), define a BETTER outcome for your final project. I.e., what do you THINK you can accomplish before the final project's deadline?
+
+A unique chess game with the new frog piece, and the project has little to no errors in the game and piece rules of chess.
+
+
+### In a sentence (or list of features), define a BEST outcome for your final project. I.e., what do you HOPE to accomplish before the final project's deadline?
+
+A unique chess game with the new frog piece, and the project has no errors at all in the game and piece rules of chess.
+
+
+## In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research? If working with one of two classmates, who will do what?
+
+First, I will familiarize myself with how to use Pygame. Next, I will begin programming by first setting up the board and positioning of the pieces. Then, I will figure out how to code for the movement rules for each chess piece. I will need to learn the skill of assigning these rules to each piece. I will have to then code for allowing each player to play their turn and allow for one player's piece to take the other's. I will need to do a lot of research on how to allow each player to play their turn and how to code to determine who wins the game and make sure the players cannot make choices that break the rules of chess.
