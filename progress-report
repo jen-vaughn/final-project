@@ -7,11 +7,12 @@ Jennifer Vaughn
 
 #### Your section leader's name
 
-TODO
+Joanne Nichols
+
 
 #### Project title
 
-"Frog Chess"
+X-mas Tic-Tac-Toe
 
 
 ***
@@ -20,15 +21,21 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 
 #### What have you done for your project so far?
 
-I have set up the board and pieces, and I assigned the movement rules for each piece. !!!!!!!!!!1
+I have set up the tic-tac-toe board and have all the rules for determining the winner, as well storing the progress of the board and redisplaying it each round.
 
 
 
 #### What have you not done for your project yet?
 
-I still need to code for each player's turn, what happens when a piece is taken, and how to decide when and who wins the game. !!!!!!!!
+I still need to allow the two players to choose a game piece and then have my code randomly select which piece will go first. I also need to add more Christmas decorations
+to the code to make it more enjoyable to look at. I also need to figure out how to add music and a background image to my code.
 
 
 #### What problems, if any, have you encountered?
 
-I have had trouble with coding for the positions of each piece on the board. !!!!!!!!!!!!!
+I had too much trouble with my original project idea, the frog chess game. I realized that my skills as a programmer are not to a level high enough to make my own chess
+game from scratch. It was too challenging for me to set up the chess board and code for the movement rules of every chess piece, as well as my unique frog piece.
+Therefore, I decided to start over and go an easier route by doing tic-tac-toe, but it will still challenging enough for me for me to feel proud of my current work. With
+tic-tac-toe, some problems I have encountered are importing new modules that I have never used before but am learning how to use, such as PIL and tkinter, because I am trying
+to add a background image to my game. I have not figured this out yet but will continue trying. I am also having trouble with inserting audio in the background, but that is
+something I will also continue working on.
