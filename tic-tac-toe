@@ -1,14 +1,10 @@
 #FINAL PROJECT
-#Tic-Tac-Toe
+#X-Mas Tic-Tac-Toe
 
-#citations: https://medium.com/byte-tales/the-classic-tic-tac-toe-game-in-python-3-1427c68b8874
+#citation: https://medium.com/byte-tales/the-classic-tic-tac-toe-game-in-python-3-1427c68b8874
+
 
 import random
-
-#from playsound import playsound
-#playsound('C:/Users/Jennifer Vaughn/OneDrive - Temple University/tictactoepy/mariahcarey.mp3')
-
-
 
 
 print("\n\n🎁🎁🎁🎁🎁 WELCOME TO X-MAS TIC-TAC-TOE 🎁🎁🎁🎁🎁\n\n\n")
@@ -16,7 +12,7 @@ print("\n\n🎁🎁🎁🎁🎁 WELCOME TO X-MAS TIC-TAC-TOE 🎁🎁🎁🎁�
 
 
     
-print('Each player, mentally select your piece: ☃ or 🎄')
+print('Each player, mentally choose your piece: ☃ or 🎄')
 print("\n")
 
 
@@ -35,7 +31,9 @@ def displayBoard(board):
     print()
     print("❅❅❅❅❅❅❅❅❅")
 
-
+def mariah():                       #citation: https://youtu.be/NFSwg5orhHo
+    from playsound import playsound
+    playsound('mariahcarey.mp3')
 
 def main():
     totalPlays = 0
@@ -46,7 +44,6 @@ def main():
         player = random.choice(pieces)
         print("\n\nThe first player is " + player + "!\n\n\n")
     
-
     while True:
         displayBoard(board)
         
@@ -119,6 +116,8 @@ def main():
             board[key] = ' '
         print()
         main()
-
+    else:
+        print("\n\n\n🎁Thanks for playing!🎁")    
+        mariah()
 
 main()
